@@ -1,0 +1,39 @@
+*{
+    font-family: Roboto, Arial;
+}
+
+p{
+    margin: 0;
+}
+
+.thumbnail{
+    width: 250px;   
+    margin-right: 10px;
+}
+
+.video-preview {
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.video-info {
+    width: 250px;
+}
+
+.video-title {
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 9px;
+}
+
+.video-author, .video-stats {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+
+.video-author{
+    margin-bottom: 5px;
+}

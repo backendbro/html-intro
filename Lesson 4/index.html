@@ -1,0 +1,74 @@
+<style>
+    div.page{
+        display: inline-block;
+        margin-right: 10px;
+        vertical-align: top;
+    }
+    .pagination{
+        background-color: aliceblue;
+        border: black solid 1px;
+        padding: 10px 18px;
+        font-size: medium;
+    }
+
+    a{
+        font-size: 20px;
+        margin: 5px;
+    }
+
+    #shadow{
+        background-color: green;
+        color: white;
+        padding: 11.5px 25px;
+        border: none;
+        display: inline-block;
+        vertical-align: top;
+        font-size: medium;
+    }
+
+    #shadow:active{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    #last-div{
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: top;
+    }
+
+    .same {
+        background-color: green;
+        color: white;
+        padding: 11.5 25px;
+        border: none;
+    }
+
+    .same:nth-child(old){
+        font-size: 50px;
+    }
+   
+</style>
+
+<!-- PAGINATION -->
+<div class="page">
+    <button class="pagination">Back</button>
+    <a href="">1</a>
+    <a href="">2</a>
+    <a href="">3</a>
+    <a href="">4</a>
+    <a href="">5</a>
+    <button class="pagination">Next</button>
+</div>
+
+<!-- stretch -->
+ 
+
+<!-- 3D Click -->
+<button id="shadow"> Shadow </button>
+
+<!-- Margin and padding together -->
+<div id="last-div">
+    <button class="same">One</button>
+    <button class="same">Two</button>
+    <button class="same different">Three</button>
+</div>

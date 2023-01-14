@@ -1,0 +1,108 @@
+<style>
+    img{
+        width: 200px;
+       height: 200px;
+       object-fit: cover;
+       object-position: center;
+    }
+
+    input{
+        margin-top: 10px;
+        display: block;
+        font-size: 20px;
+    }
+
+    #google-search-box{
+        width: 450px;
+        height: 40px;
+        border-radius: 40px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    div {
+        margin-top: 20px;
+    }
+
+    #linkedin-search-box {
+        border: 0.5px solid black;
+        border-radius: 5px;
+        margin-top: 3px;
+    }
+
+    label {
+        font-family: Arial, Helvetica, sans-serif;
+        margin:0px;
+    }
+
+    #policy-text{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #join {
+        background-color: blue;
+        color:white;
+        width: 290px;
+        height: 45px;
+        padding: 10px;
+        border-radius: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 16px;
+    }
+
+    #tweet-div{
+        background-color: antiquewhite;
+        width: 520px;
+    }
+
+    #tweet-profile-picture, #tweet-paragraph,  #tweet-button{
+        display: inline;
+        vertical-align: middle;
+    }
+
+    #tweet-profile-picture{
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 35px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    #tweet-paragraph, #tweet-button{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    #tweet-button {
+        margin-left: 160px;
+        text-align: right;
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        border-radius: 40px;
+        padding: 10px 25px;
+    }
+
+</style>
+
+<img src="cat.jpg" alt="A picture of a cat">
+
+<input type="text" placeholder=" &nbsp; Search" id="search-box">
+<input type="text" placeholder="&nbsp; Search Google or type a URL" id="google-search-box">
+
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="linkedin-search-box">
+    <p id="policy-text">By clicking Agree & Join, you agree to the privacy policy </p>
+    <button id="join">Agree & Join</button>
+</div> 
+
+<div id="tweet-div">
+    <img src="cat.jpg" id="tweet-profile-picture">
+    <p id="tweet-paragraph">What's happening?</p>
+    <button id="tweet-button">Tweet</button>
+</div>

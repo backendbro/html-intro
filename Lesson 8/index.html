@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #form-1{
+            margin-left: 10px;
+        }
+
+        #firstName, #lastName {
+            display: inline-block;
+            width: 100px;
+            padding: 9px 11px;
+            border-radius: 6px;
+            border: 1px solid grey;
+            margin-bottom: 10px;
+            font-weight: normal;
+            font-size: 15px;
+        }
+
+        #email {
+            display: block;
+            width: 213px;
+            padding: 10px 18px;
+            border-radius: 6px;
+            border: 1px solid grey;
+            margin-bottom: 10px;
+            font-weight: normal;
+            font-size: 15px;
+        }
+
+        #sign-up-btn {
+            display: block;
+            background-color: blue;
+            color: white;
+            padding: 14px 100px;
+            border: none;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            font-weight: normal;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        #form-2{
+            margin-left: 10px;
+            font-family: Arial;
+        }
+
+        h2{
+            font-weight: normal;
+            font-size: 35px;
+            margin-bottom: 20px;
+        }
+
+        #enter_location, #enter_dest{
+            display: block;
+            padding: 14px 49px;
+            background-color:rgb(233, 229, 229);
+            color: black;
+            border: none;
+            margin-bottom: 10px;
+            font-weight: normal;
+            font-size: 15px;
+        }
+
+        #uber-request-btn, #uber-schedule-btn {
+            display: inline-block;
+            margin-top: 14px;
+            font-weight: normal;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        #uber-request-btn {
+            background-color: black;
+            color: white;
+            padding: 14px 10px;
+        }
+
+        #uber-schedule-btn {
+            background-color: rgb(233, 229, 229);
+            color: black;
+            padding: 16px 13px;
+            border: none;
+            margin-left: 20px;
+        }
+
+    </style>
+
+    <div id="form-1">
+        <input type="text" placeholder="First name" id="firstName">
+        <input type="text" placeholder="Last name" id="lastName">
+        <input type="email" placeholder="Email" id="email">
+        <button id="sign-up-btn"> Sign Up </button>
+    </div>
+
+    <div id="form-2">
+        <h2>Request a ride now</h2>
+        <input type="text" placeholder="Enter pickup location" id="enter_location">
+        <input type="text" placeholder="Enter destination" id="enter_dest">
+ 
+        <button id="uber-request-btn"> Request now </button>
+        <button id="uber-schedule-btn"> Schedule for later </button>
+    </div>
+
+</body>
+</html>
