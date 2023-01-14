@@ -54,10 +54,7 @@ p{
 .video-info-grid{
     display: grid;
     grid-template-columns: 50px 1fr;
+    column-gap: 10px;
 }
 
-
-/* .channel-picture{
-    margin-right: 6px;
-} */
 
