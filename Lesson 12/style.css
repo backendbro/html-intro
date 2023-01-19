@@ -1,0 +1,53 @@
+*{
+    font-family: Roboto, Arial;
+    /* background-color: lightpink; */
+}
+
+h2{
+    margin-top:5px;
+    display: block;
+}
+
+.profile-pic{
+    width: 100%;
+}
+
+button {
+    display: block;
+    padding: 10px 23px;
+    background-color: rgb(76, 76, 230);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.friend-request-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+
+.profile-preview{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -9px;
+}
+
+
+
+p{
+    display: inline-block;
+    vertical-align: top;  
+    margin-top: -4px;  
+}
+

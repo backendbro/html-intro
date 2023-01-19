@@ -1,0 +1,94 @@
+*{
+    font-family: Roboto, Arial;
+}
+
+body{
+    margin-bottom: 200px;
+}
+
+#facebook-notif{
+    width: 500px;
+    border: 1px solid gray;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.notif {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: top;
+    margin: 10px;
+}
+
+p{
+    margin: 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+span{
+    background-color: blue;
+    padding: 10px;
+    border-radius: 18px;
+    color: white;
+}
+
+#pin-interest{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: end; */
+    text-align: left;
+    width: 400px;
+}
+
+
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+h2{
+    margin-bottom: 4px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.user{
+    font-size: 10px;
+    margin-top: -18px;
+    margin-left: 10px;
+    /* margin-left: -300px; */
+}
+
+.user > p {
+    color: rgb(110, 110, 110);
+    margin-bottom: 4px;
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    border: none;
+    margin-top: -4px;
+    padding: 10px;
+}
+
+#test-btn{
+    margin-top: 20px;
+    width: 105px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(19, 151, 233);
+    color: white;
+    font-size: 19px;
+}
+
+#overrall-div{
+    border: .2 solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
