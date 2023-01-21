@@ -1,0 +1,38 @@
+body{
+    height: 3000px;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.header-div{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0px;
+    /* bottom: 0px; */
+    left: 0px;
+    right: 0px;
+    height: 20px;
+}
+
+.div-1 {
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+}
+
+.div-2 {
+    background-color: lightpink;
+    width: 200px;
+    height: 200px;
+}
+
+.side-bar {
+     background-color: green;
+     color: white;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     top: 20px;
+     width: 50px;
+}

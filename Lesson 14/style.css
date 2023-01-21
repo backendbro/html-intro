@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.overrall-div{
+    display: block;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 500px;
+}
+
+.inboxes{
+    font-size: 15px;
+    color: rgb(99, 97, 97);
+}
+
+.profile-preview{
+    display: flex;
+    margin-top: 35px;
+    vertical-align: top;
+}
+
+img{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.second-div{
+    display: flex;
+    flex-direction: column;
+    margin-top: -28px;
+}
+
+h2{
+    margin-bottom: -16px;
+}
+
+p {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span {
+    color: rgb(95, 94, 94);
+}
+

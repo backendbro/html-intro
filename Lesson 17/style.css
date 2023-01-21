@@ -1,0 +1,37 @@
+.item-overview{
+    /* width: 350px;     */
+    display: flex;
+    justify-content: center;
+}
+
+.img-dis{
+    position: relative;
+}
+
+img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    background: linear-gradient(to top, pink 0%, pink 50%, blue 50%, blue 100%);
+}
+
+.discount{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 10px;
+    right: 0px;
+}
+
+button{
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+    border: 1px solid black;
+    padding: 10px 18px 10px 18px;
+    font-size: 15px;
+    font-weight: normal;
+}
